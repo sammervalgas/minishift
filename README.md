@@ -1,11 +1,9 @@
-cat <<EOF > README.md
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 # MINISHIFT SHOOTING LINE ;)
 ============
 
 ## Installation
-:warning: 
-:information_source:
+
 
 ## Terminology
 |Acronym|Description|
@@ -19,6 +17,11 @@ cat <<EOF > README.md
 |SA|Service Account|
 |PV|Persistent Volume|
 |PVC|Persistent Volume Claim|
+
+
+> Note:
+	:warning: - Atention / Alert
+	:information_source: - Information
 
 ## Running minishift
 > On CLI run the commands bellow:
@@ -65,4 +68,3 @@ $ rm -rf ~/.minishiff
 
 ## Problems and solutions
 
-EOF;
